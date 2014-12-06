@@ -1,3 +1,9 @@
+devuan-keyring (2014.12.07) unstable; urgency=medium
+
+  * Added repository key.
+
+ -- Franco (nextime) Lanza <nextime@devuan.org>  Sat, 6 Dec 2014 10:05:27 +0100
+
 devuan-keyring (2014.12.06) unstable; urgency=low
 
   * First packaging.
