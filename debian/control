@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Franco (nextime) Lanza <nextime@devuan.org>
 Bugs: mailto:nextime@devuan.org
 Homepage: http://www.devuan.org
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 9)
 
 Package: devuan-keyring
@@ -12,5 +12,6 @@ Architecture: all
 Multi-Arch: foreign
 Depends: gnupg (>= 1.0.6-4), ${misc:Depends}
 Description: GnuPG archive key of the devuan repository
- The devuan repository digitally signs its Release files. This
- package contains the repository key used for that.
+ The devuan repository digitally signs its Release files. 
+ This package contains the repository keys from devuan 
+ developers used for that.
