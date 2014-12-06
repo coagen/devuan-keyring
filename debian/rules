@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_install:
+	dh_install keyrings/devuan-keyring.gpg usr/share/keyrings/
+	dh_install keyrings/devuan-removed-keys.gpg usr/share/keyrings
+
+override_dh_builddeb:
+	dh_builddeb -- -Zxz

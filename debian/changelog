@@ -1,0 +1,5 @@
+deb-multimedia-keyring (2014.12.06-vua1) unstable; urgency=low
+
+  * First packaging.
+
+ -- Franco (nextime) Lanza <nextime@devuan.org>  Sat, 6 Dec 2014 17:20:39 +0100
